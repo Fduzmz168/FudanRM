@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+Create a vue(version@4) project, copy folder "node_mudules" to /UI
 ```
 
 ### Compiles and hot-reloads for development
