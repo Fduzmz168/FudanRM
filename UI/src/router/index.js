@@ -6,7 +6,7 @@ import Login from "../components/Login";
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
       {
         path: '/login',
         name: 'Login',
@@ -15,7 +15,11 @@ Vue.use(VueRouter)
       {
         path: '/index',
         name: 'AppIndex',
-        component: AppIndex
+        component: AppIndex,
+        // 区分页面是否需要拦截
+        meta: {
+          requireAuth: true
+        }
       },
 
   {
